@@ -47,12 +47,6 @@
   background-color: #fff;
   border: 1px solid #B08EAD;
 }
-.banner-part:hover {
-  transition: all 0.7s ease;
-  border: 1px solid #B08EAD;
-  background-color: white;
-  color: #B08EAD;
-}
 .banner-part .banner-text h1 {
   font-weight: 500;
   line-height: 78px;

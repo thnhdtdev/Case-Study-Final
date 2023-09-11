@@ -46,7 +46,8 @@
         font-weight: bold;
         color: white;
         text-transform: uppercase;
-        &:hover{
+
+        &:hover {
             transition: all 0.8s ease;
             color: #B08EAD;
             background-color: #fff;
@@ -54,12 +55,7 @@
         }
     }
 
-    &:hover {
-        transition: all 0.7s ease;
-        border: 1px solid $color-center;
-        background-color: white;
-        color: $color-center;
-    }
+
 
     .banner-text h1 {
         font-weight: 500;
@@ -266,7 +262,8 @@
         img {
             margin-bottom: 20px;
         }
-        &:hover{
+
+        &:hover {
             transition: all 0.8s ease;
             transform: translateY(-10px);
         }
@@ -339,6 +336,7 @@
 
 .footer {
     background-color: #f4edf278;
+
     .footer-content {
         padding: 120px 0;
 
@@ -389,14 +387,17 @@
 
         }
     }
-    .copyright{
+
+    .copyright {
         background-color: #F4EDF2;
         padding: 30px 0;
-        .copyright-text{
+
+        .copyright-text {
             color: #795376;
         }
-        .copyright-link{
-            a{
+
+        .copyright-link {
+            a {
                 text-decoration: none;
                 color: $color-thub;
                 font-weight: 400;
