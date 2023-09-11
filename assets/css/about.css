@@ -1,0 +1,44 @@
+.about-us {
+  padding-top: 200px;
+}
+.about-us .about-us-content h5 {
+  color: #B08EAD;
+  font-size: 20px;
+  font-weight: 400;
+}
+.about-us .about-us-content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #4B3049;
+  margin: 5px 0 60px;
+}
+.about-us .about-us-content .about-us-video {
+  position: relative;
+}
+.about-us .about-us-content .about-us-video .about-video-icon {
+  position: absolute;
+  height: 84px;
+  width: 84px;
+  background-color: #795376;
+  border-radius: 50%;
+  line-height: 84px;
+  display: inline-block;
+  left: 0;
+  right: 100px;
+  margin: 0 auto;
+  top: 41%;
+}
+.about-us .about-us-content .about-us-video .about-video-icon::after {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 14px;
+  background-color: #fff;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  top: 41%;
+  -webkit-clip-path: polygon(100% 50%, 0 0, 0 100%);
+          clip-path: polygon(100% 50%, 0 0, 0 100%);
+}/*# sourceMappingURL=about.css.map */
